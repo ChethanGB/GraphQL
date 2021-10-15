@@ -73,7 +73,7 @@ The Query is an API request made by the client machine application. It supports 
 
 Following are the important parts of Query
 
-1. Field
+##### 1. Field
   
   A field simply indicates that we are asking the server for particular information. Following is a GraphQL example of a field in graphQL query.
 
@@ -97,9 +97,15 @@ Following are the important parts of Query
 
   In the above GraphQL example, we ask the server for the field called team and its subfields like id and name. The GraphQL server returns data in we asked for.
   
-2. Arguments
+##### 2. Arguments
 
   In [REST](https://www.guru99.com/testing-rest-api-manually.html), we can only pass a single set of arguments as URL segments and query parameters. To get a particular profile, a typical REST call will look like the following:
   
-  
+```language
+  GET /api'team?id=2 Content-Type: application JSON
+   {
+      "id": 2, 
+      "name": "Justice League."
+   }
+```
 
