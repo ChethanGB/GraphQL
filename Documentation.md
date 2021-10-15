@@ -42,3 +42,21 @@ Following are the reasons of using GraphQL:
 * It can be used for rapid application prototyping.
 
 
+## Applications of GraphQL
+
+Here are the important applications of GraphQL:
+
+* It provides Relay and other client frameworks
+* GraphQL helps you to improve the performance of the mobile app.
+* It can reduce over fetching problem to lower server-side cloud service and decrease the client-side, network usage.
+* It can be used when the client application has to specify which fields are needed in long query format.
+* GraphQL can be fully utilized when you have to add functionality to your old or existing API.
+* It is used when you have to simplify complex API.
+* Mix and mash façade pattern, which is commonly used in object-oriented programming.
+* When you have to aggregate data from more than one place into one convenient API.
+* You can use GraphQL as an abstraction on an existing API to specify response structure based on user needs.
+
+
+## What do you need to learn before learning GraphQl?
+
+This GraphQL tutorial is based on [Express](https://www.guru99.com/node-js-express.html) and [NodeJs](https://www.guru99.com/node-js-tutorial.html). Therefore, you can learn GraphQL very easily with a basic understanding of NodeJS.
