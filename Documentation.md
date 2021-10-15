@@ -220,4 +220,45 @@ Here are the important points while designing GraphQL:
   |GraphQL provides high consistency across all platforms.|It is hard to get consistency across all platforms.|
 
 
+## Disadvantages of GraphQL
 
+Here are the GraphQL disadvantages:
+
+* Young ecosystem
+* Lack of resources on the backend part.
+* Missing design pattern for a complex app.
+* Performance issues with complex queries.
+* Overkill for small applications
+* GraphQL does not depend on the HTTP caching methods that enable storing request content.
+* GraphQL does not understand files. Hence, a file uploading feature is not included in it.
+* With GraphQL, be prepared to have a lot of pre-development education like learning the Schema Definition Language.
+
+## Open Source Apps and Tools used by GraphQL
+The important open source apps and tools used by GraphQL are as follows:
+
+[**Gatsby:**](https://www.gatsbyjs.org/) Gastby is an application powered by GraphQL that can use data which is derived from more than one GraphQL API source. You can use it to develop a static and client-based React application.
+
+[**GraphiQL:**](https://github.com/graphql/graphiql) It is an ID that integrates with the browser and also interacts with the API of GraphQL. Some of the functions that GraphiQL includes are mutations, data querying, and autocompletes queries.
+
+[**GraphQL Playground:**](https://www.npmjs.com/package/graphql-playground) It is a powerful IDE that has an in-built editor for handling mutations, validation, GraphQl queries, subscriptions, etc. The developer can use this IDE to visualize the structure of the schema.
+
+[**Prisma:**](https://www.prisma.io/) Prisma is a database abstraction layer which turns your databases into GraphQL APIs with CRUD (Create, Read, Update and Delete) operations.
+
+[**Bit:**](https://bit.dev/) It is open-source tool and platform that converts reusable code into components. Developers can use them to share and develop various projects.
+
+
+## Summary
+
+* GraphQL is an application layer server-side technology which is developed by Facebook for executing queries with existing data.
+* You can use GraphQL to fetch data with a single API call.
+* GraphQL helps you to improve the performance of the mobile app.
+* Important GraphQL query components are: 1) Query, 2) Resolver, 3) Schema.
+* GraphQL is strongly typed. It means queries are executed within the context of a particular system.
+* GraphQL client is a code that makes POST requests to a relevant GraphQL Server.
+* GraphQL servers are servers side implementation of GraphQL’s specification.
+* Gateway is a microservice pattern where you can build a separate service to cope up with other backend services.
+* GraphQL has one good way to factorize the dynamic values out of the query.
+* A mutation is a way to change the dataset in GraphQL.
+* The important points while designing GraphQL are: 1) Naming, 2) Specificity, 3) Input object Unique payload type, and 4) Nesting.
+* GraphQL can be organized in terms of a schema, whereas REST can be organized in terms of endpoints.
+* The disadvantage of GraphQL is that it lacks of resources on the backend part.
