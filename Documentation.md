@@ -2,7 +2,7 @@
 
 
 1. [What is GraphQL](#what-is-graphql)
-2. [Why use GraphQL?](#why-use-graphql?)
+2. [Why use GraphQL?](#why-use-graphql)
 3. When to use GraphQL?
 4. GraphQL Key Components
 5. Features of GraphQL
