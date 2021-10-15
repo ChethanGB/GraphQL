@@ -187,3 +187,37 @@ query HeroNameAndFriends($episode: Episode) {
   }
 }
 ```
+
+As you can see in the above GraphQL example, we have simply passed a different variable other than needing to construct a new query.
+
+## What is Mutation?
+
+A mutation is a way to change the dataset in GraphQL. It modifies data in the data store and returns a value. Mutations help you to insert, update, or delete data. Generally, mutations are defined as a schema part.
+
+### Points to consider while designing GraphQL mutations:
+
+Here are the important points while designing GraphQL:
+
+  **Naming:** First of all, you have to name your mutations verb. Then the noun, or “object” if applicable. Use camelCase while naming mutations.
+  **Specificity:** You have to make mutation-specific as much as possible. Mutations should represent semantic actions taken by the user.
+  **Input object:** Use a one, unique, required, input object type as an argument for executing mutation on the client.
+  **Unique payload type:** You should use a unique payload type for every mutation. You can also add the mutation output as a field to that particular payload type.
+  **Nesting:** Use nesting to your mutation wherever it makes sense. It allows you to fully utilize GraphQL API.
+  
+  ## Difference between GraphQL and REST
+  
+  Following table shows important difference between [GraphQL and REST](https://www.guru99.com/graphql-vs-rest-apis.html).
+  
+  |GraphQL|REST|
+  |-------|----|
+  |It follows client-driven architecture.|It follows server-driven architecture.|
+  |GraphQL can be organized in terms of a schema.|REST can be organized in terms of endpoints.|
+  |GraphQL is a growing community.|REST is a very large community.|
+  |The development speed in GraphQL is fast.|The development speed in REST is Slow.|
+  |The learning curve in GraphQL is difficult.|The learning curve in REST is moderate.|
+  |The identity is separated from how you fetch it.|The endpoint you call in REST is the identity of a particular object.|
+  |In GraphQL, the server determines available resources.|The shape and size of the resource is determined by the server in REST.|
+  |GraphQL provides high consistency across all platforms.|It is hard to get consistency across all platforms.|
+
+
+
