@@ -109,3 +109,81 @@ Following are the important parts of Query
    }
 ```
 
+### Resolver:
+
+Resolvers provide the directions for converting GraphQL operation into data. They resolve the query to data by defining resolver functions.
+
+It displays the server the process as well as location to fetch data according to a specific field. The resolver also separates database schema and API schema. The separated information helps to modify the content obtained from the database.
+
+### Schema:
+
+A GraphQL schema is the center of GraphQL implementation. It describes the functionality available to the clients which are connecting to it.
+
+
+## Features of GraphQL
+
+Here are important features of GraphQL:
+
+* It provides declarative query language, which is not imperative.
+* It is hierarchical and product-centric.
+* GraphQL is strongly typed. It means queries are executed within the context of a particular system.
+* Queries in GraphQL are encoded in the client, not in the server.
+* It has all the features of the application layer of the OSI model.
+
+## GraphQL Clients
+
+GraphQL client is a code that makes POST requests to a relevant GraphQL Server. You can query a GraphQL API directly, but the good approach is to leverage a dedicated client library using Relay.
+
+This JavaScript library is developed by Facebook for making React applications with GraphQL. GraphQL clients can be a CMS like Drupal, a single page application, a mobile application, etc.
+
+## GraphQL Servers
+
+GraphQL servers are servers side implementation of GraphQL’s specification. It depicts your data as GraphQL API, which your client program can query for the database.
+
+## GraphQL Gateways
+
+Gateway is a microservice pattern where you can build a separate service to cope up with other backend services. It offers workable documentation and gives a convenient way to collect data from more than one source with a single request.
+
+## What is the variable in GraphQL?
+
+A Variable in GraphQL is used to separate the dynamic values from the client query and pass the query as a unique dictionary. Variable in GraphQL can also be used for reusing the query or mutations written by the client with individual arguments. In graphQL, you cannot pass dynamic arguments directly in the query string. The reason is client-side code needs to manipulate query string dynamically at the time when you run the program.
+
+GraphQL has one good way to factorize the dynamic values out of the query. It passes them as a separate dictionary. These values are known as variables. Whenever we working with variables, we need to do the following three things:
+
+  1. Replace the static value in the query with a variable name.
+  2. Declare the variable name as one of the variables that are accepted by the GraphQL query.
+  3. Pass the value in the transport-specific dictionary of variables.
+
+Here’s what it looks like all together:
+
+```language
+query HeroNameAndFriends($episode: Episode) {
+  hero(episode: $episode) {
+    name
+    friends {
+      name
+    }
+  }
+}
+{
+  "episode": "JEDI"
+}
+{
+  "data": {
+    "hero": {
+      "name": "R2-D2",
+      "friends": [
+        {
+          "name": "Luke Skywalker"
+        },
+        {
+          "name": "Han Solo"
+        },
+        {
+          "name": "Leia Organa"
+        }
+      ]
+    }
+  }
+}
+```
