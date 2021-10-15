@@ -1,8 +1,8 @@
 # GraphQL Tutorial: What is GraphQL? Learn with Example
 
 
-1. [What is GraphQL](#What-is-GraphQL?)
-2. [Why use GraphQL?](#Why-use-GraphQL?)
+1. [What is GraphQL](#what-is-graphql?)
+2. [Why use GraphQL?](#why-use-graphql?)
 3. When to use GraphQL?
 4. GraphQL Key Components
 5. Features of GraphQL
