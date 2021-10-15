@@ -60,3 +60,9 @@ Here are the important applications of GraphQL:
 ## What do you need to learn before learning GraphQl?
 
 This GraphQL tutorial is based on [Express](https://www.guru99.com/node-js-express.html) and [NodeJs](https://www.guru99.com/node-js-tutorial.html). Therefore, you can learn GraphQL very easily with a basic understanding of NodeJS.
+
+
+![Reference Name](GraphQL_Components.png)
+
+
+
