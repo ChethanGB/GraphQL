@@ -2,4 +2,4 @@
 
 These diagrams can be lined using below tag.
 
-<< ![Reference Name](images/someimage.png) >>
+<<  >>
