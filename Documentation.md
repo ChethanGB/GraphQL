@@ -77,7 +77,7 @@ Following are the important parts of Query
   
   A field simply indicates that we are asking the server for particular information. Following is a GraphQL example of a field in graphQL query.
 
->>
+```language
   query {
     team {
         id name
@@ -93,7 +93,7 @@ Following are the important parts of Query
     ]
    }
   }
-
+```
 
   In the above GraphQL example, we ask the server for the field called team and its subfields like id and name. The GraphQL server returns data in we asked for.
   
