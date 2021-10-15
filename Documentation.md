@@ -61,8 +61,40 @@ Here are the important applications of GraphQL:
 
 This GraphQL tutorial is based on [Express](https://www.guru99.com/node-js-express.html) and [NodeJs](https://www.guru99.com/node-js-tutorial.html). Therefore, you can learn GraphQL very easily with a basic understanding of NodeJS.
 
-
 ![Reference Name](GraphQL_Components.png)
 
+As shown in the above figure, there are three key components of GraphQL: 1) Query, 2) Resolver, and 3) Schema.
 
+### Query:
+The Query is an API request made by the client machine application. It supports augments and points to arrays. Query is used to read or fetch values.
+
+
+#### Parts of Query:
+
+Following are the important parts of Query
+
+1. Field
+  
+  A field simply indicates that we are asking the server for particular information. Following is a GraphQL example of a field in graphQL query.
+
+```json
+  query {
+    team {
+        id name
+    }
+  }
+
+  "data": {
+     "team":[ {
+        "id": 1, 
+        "name": "Avengers"
+     }
+     ,
+     …
+    ]
+   }
+  }
+```
+  
+2. Arguments
 
